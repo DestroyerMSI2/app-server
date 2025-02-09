@@ -1,0 +1,12 @@
+
+POST   http://localhost:3000/IA
+Content-Type: application/json
+
+{
+    "peticion": "gradle --version"
+}
+###
+GET   http://localhost:3000/empleados
+
+###
+GET http://localhost:3000/fotos/85020926827
